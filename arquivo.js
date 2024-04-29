@@ -42,3 +42,10 @@ if (notaDoAluno > notaDeCorte) {
     else {
         console.log("Você foi reprovado")
     }
+
+    // FUNCTIONS //
+
+    function nomeNaTela () {
+        console.log ("Rodolfo")
+    }
+    nomeNaTela ()
