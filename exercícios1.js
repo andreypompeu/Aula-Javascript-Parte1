@@ -24,10 +24,10 @@ console.log("A média dos números é",media)
 const numero = 20;
 
 if (numero > 10){
-    console.log("Verificado")
+    console.log("Verificado",numero)
 }
 else{
-     console.log("Não verificado")
+     console.log("Não verificado",numero)
 }
 
 // 4 //
@@ -36,13 +36,20 @@ else{
 const numero = -5;
 
 if (numero > 0) {
-    console.log("Número é positivo")
+    console.log("Número é positivo",numero)
 }
 
 else {
-    console.log ("Número é negativo")
+    console.log ("Número é negativo",numero)
 }
 
 // 5 //
 // Escreva um programa que calcule a soma de dois números e exiba o resultado utilizando uma template string. Por exemplo, se os números forem 5 e 3, o programa deve exibir "A soma de 5 e 3 é igual a 8" //
+
+const num1 = 10;
+const num2 = 20;
+
+const soma = (num1+num2)
+
+console.log("A soma dos números é", soma)
 
